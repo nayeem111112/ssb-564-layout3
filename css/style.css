@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: rgb(73, 64, 197);
+    background-color: cornsilk;
+    text-align: center;
+    height: 100px;
+}
+.content{
+    display: flex;
+}
+.left{
+    width: 20%;
+    height: 600px;
+    background-color: rgb(143, 170, 188);
+}
+.right{
+    width: 80%;
+    height: 600px;
+    background-color: cornflowerblue;
+}
+.top{
+    height: 20%;
+    background-color: cyan;
+}
+.bottom{
+    height: 80%;
+    background-color: dodgerblue;
+    display: flex;
+}
+.bottom_left{
+    width: 50%;
+    height: 100%;
+    background-color: paleturquoise;
+}
+.bottom_right{
+    width: 50%;
+    height: 100%;
+    background-color: lightblue;
+}
+footer{
+    background-color: indianred;
+    text-align: center;
+    color: beige;
+    height: 100px;
+}
